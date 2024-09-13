@@ -1,7 +1,7 @@
 [tool.poetry]
-name = "tgintegration"
+name = "tgintegration-light"
 packages = [
-    { include = "tgintegration" }
+    { include = "tgintegration-light" }
 ]
 include = ["LICENSE"]
 version = "2.0.0"
@@ -9,7 +9,7 @@ description = "Integration test and automation library for Telegram Messenger Bo
 authors = ["JosXa <info@josxa.dev>"]
 license = "MIT"
 readme = "README.md"
-repository = "https://github.com/JosXa/tgintegration"
+repository = "https://github.com/sudovag3/tgintegration-light"
 keywords = ["telegram-bots", "testing", "integration-tests", "library", "python"]
 classifiers = [
     "Typing :: Typed",
@@ -21,7 +21,7 @@ classifiers = [
 ]
 
 [tool.poetry.urls]
-"Bug Tracker" = "https://github.com/JosXa/tgintegration/issues"
+"Bug Tracker" = "https://github.com/sudovag3/tgintegration-light/issues"
 "Support Chat" = "https://t.me/TgIntegration"
 "Contact Author" = "https:/t.me/JosXa"
 
