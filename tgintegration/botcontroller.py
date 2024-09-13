@@ -302,6 +302,7 @@ class BotController:
 
     async def send_message(
         self,
+        text: str,
         peer: Union[int, str] = None,
     ) -> Message:
         """
