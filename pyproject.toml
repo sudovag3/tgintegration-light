@@ -1,7 +1,7 @@
 [tool.poetry]
-name = "tgintegration-light"
+name = "tgintegration"
 packages = [
-    { include = "tgintegration-light" }
+    { include = "tgintegration" }
 ]
 include = ["LICENSE"]
 version = "2.0.0"
