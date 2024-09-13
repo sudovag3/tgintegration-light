@@ -83,6 +83,7 @@ class InlineKeyboard:
         self,
         pattern: Union[Pattern, str] = None,
         index: Optional[int] = None,
+        max_wait: Optional[int] = 30
     ) -> "Response":
         """
         Uses `find_button` with the given `pattern` or `index`, clicks the button if found, and waits for the bot
@@ -107,7 +108,7 @@ class InlineKeyboard:
                 chat_id=self._peer_id,
                 message_id=self._message_id,
                 callback_data=button.callback_data,
-                timeout=30,
+                timeout=max_wait,
             )
 
         return res
